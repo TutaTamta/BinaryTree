@@ -116,29 +116,3 @@ class BinarySearchTree {
         depthFirstTraversal(node.right)
     }
 }
-/*
-fun main() {
-    val bst = BinarySearchTree()
-    bst.insert(5)
-    bst.insert(3)
-    bst.insert(7)
-    bst.insert(2)
-    bst.insert(4)
-    bst.insert(6)
-    bst.insert(8)
-
-    print("Breadth-First Traversal:")
-    bst.breadthFirstTraversal()
-    println()
-
-    print("Depth-First Traversal:")
-    bst.depthFirstTraversal()
-    println()
-
-    println("Search 4: ${bst.search(4)}")
-
-    bst.remove(3)
-    print("Depth-First Traversal after removing 3:")
-    bst.depthFirstTraversal()
-    println()
-}*/
