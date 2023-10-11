@@ -5,7 +5,7 @@ class TreeNode(var value: Int) {
     var right: TreeNode? = null
 }
 
-class BinarySearchTree {
+class BinaryTree {
     private var root: TreeNode? = null
 
     fun insert(value: Int) {
